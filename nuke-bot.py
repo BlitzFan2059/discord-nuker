@@ -7,7 +7,12 @@ from sys import exit
 init()
 dr = DR = r = R = cc.LIGHTRED_EX
 g = G = cc.LIGHTGREEN_EX
+b = B = cc.LIGHTBLUE_EX
+m = M = cc.LIGHTMAGENTA_EX
+c = C = cc.LIGHTCYAN_EX
+y = Y = cc.LIGHTYELLOW_EX
 w = W = cc.RESET
+
 
 clear = lambda: system('cls') if os_name == 'nt' else system('clear')
 def _input(text):print(text, end='');return input()
